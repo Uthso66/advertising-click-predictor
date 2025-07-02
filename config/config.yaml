@@ -1,0 +1,26 @@
+data:
+  raw_path: data/raw/advertising.csv
+  interim_dir: data/interim
+  processed_dir: data/processed
+  test_size: 0.2
+  val_size: 0.2
+  random_state: 0
+  features_dir: data/features
+
+model:
+  type: logistic_regression
+  hyperparameters:
+    solver: liblinear
+    penalty: l2
+    C: 1.0
+  save_path: models/logistic_model.pkl
+
+evaluation:
+  metrics_output: models/model_metrics.json
+  confusion_matrix_plot: outputs/confusion_matrix.png
+  roc_curve_plot: outputs/roc_curve.png
+  classification_report_txt: outputs/classification_report.txt
+
+features:
+  numeric: ['Daily Time Spent on Site', 'Age', 'Area Income', 'Daily Internet Usage']
+  categorical: ['Male']
