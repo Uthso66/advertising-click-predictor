@@ -1,4 +1,3 @@
-```markdown
 # 🖱️ Advertising Click Predictor
 
 A full **end-to-end machine learning pipeline** to predict whether a user will click on an online ad, built with **Logistic Regression**, clean modular code, and industry-standard structure.
