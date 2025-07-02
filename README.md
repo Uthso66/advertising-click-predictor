@@ -93,8 +93,7 @@ python run.py
 ---
 
 ## 📊 Outputs
-
-
+![Confusion Matrix](outputs/confusion_matrix.png)
+![ROC Curve](outputs/roc_curve.png)
 ## 🏆 Author
 MD TARIKUL ISLAM UTHSO
-````
